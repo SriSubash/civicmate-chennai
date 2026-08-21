@@ -1,0 +1,7 @@
+{
+  "name": "CivicMate Chennai",
+  "description": "AI-assisted civic problem complaint drafting tool for Chennai residents with English and Tamil bilingual support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

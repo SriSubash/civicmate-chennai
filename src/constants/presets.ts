@@ -1,0 +1,88 @@
+import { PresetExample } from '../types';
+
+export const PRESET_EXAMPLES: PresetExample[] = [
+  {
+    id: 'garbage-overflow',
+    category: 'Waste Management',
+    title: 'Garbage accumulation',
+    titleTa: 'குப்பை தேக்கம்',
+    textEn: 'There has been garbage overflowing near the bin on our street corner for three days, attracting stray animals and smelling very bad.',
+    textTa: 'எங்கள் தெரு முனையில் உள்ள குப்பைத் தொட்டியில் இருந்து கடந்த 3 நாட்களாக குப்பைகள் கொட்டப்பட்டு அகற்றப்படாமல் உள்ளது. துர்நாற்றம் வீசுகிறது.',
+    tag: 'GCC Solid Waste',
+  },
+  {
+    id: 'deep-pothole',
+    category: 'Roads & Infrastructure',
+    title: 'Hazardous Pothole',
+    titleTa: 'ஆபத்தான குண்டும் குழியும்',
+    textEn: 'A deep pothole has formed right in front of the bus stand on 2nd Main Road after recent rains. Two two-wheelers skidded yesterday evening.',
+    textTa: 'சமீபத்திய மழையால் 2வது பிரதான சாலையில் உள்ள பேருந்து நிறுத்தம் அருகில் பெரிய பள்ளம் ஏற்பட்டுள்ளது. நேற்று இருசக்கர வாகனங்கள் சறுக்கி விபத்து ஏற்பட்டது.',
+    tag: 'GCC Bus Route Roads',
+  },
+  {
+    id: 'streetlight-darkness',
+    category: 'Street Lighting',
+    title: 'Streetlights not working',
+    titleTa: 'தெருவிளக்கு எரியவில்லை',
+    textEn: 'Four consecutive streetlights from pole #12 to #16 have been not functioning for more than a week, making the entire lane pitch dark and unsafe for women and children at night.',
+    textTa: 'எங்கள் தெருவில் கடந்த ஒரு வாரமாக தொடர்ந்து 4 தெருவிளக்குகள் எரியவில்லை. இரவில் தெரு மிகவும் இருட்டாக இருப்பதால் பெண்கள் மற்றும் குழந்தைகள் நடக்க சிரமப்படுகிறார்கள்.',
+    tag: 'GCC Electrical / TANGEDCO',
+  },
+  {
+    id: 'sewage-overflow',
+    category: 'Drainage & Sewerage',
+    title: 'Sewage overflowing on road',
+    titleTa: 'கழிவுநீர் சாலையில் பெருக்கெடுத்தல்',
+    textEn: 'Drainage chamber is choked and foul sewage water is overflowing onto the residential street, mixing with stagnant water and posing severe health hazards.',
+    textTa: 'வடிகால் அடைபட்டு சாலையில் கழிவுநீர் வெளியேறி தேங்கி நிற்கிறது. இதனால் கடுமையான துர்நாற்றமும் கொசு உற்பத்தியும் ஏற்பட்டு நோய் பரவும் அபாயம் உள்ளது.',
+    tag: 'CMWSSB (Metro Water)',
+  },
+  {
+    id: 'stray-cattle',
+    category: 'Public Safety',
+    title: 'Stray Cattle Hazard',
+    titleTa: 'சாலையில் சுற்றித்திரியும் மாடுகள்',
+    textEn: 'Several stray cattle are wandering and sitting across the busy junction, blocking evening traffic and causing danger to motorbikers.',
+    textTa: 'முக்கிய சந்திப்பில் சாலையில் மாடுகள் கூட்டம் கூட்டமாக சுற்றித்திரிவதால் மாலை நேர போக்குவரத்துக்கு பெரும் இடையூறும் விபத்து அபாயமும் ஏற்படுகிறது.',
+    tag: 'GCC Cattle Control',
+  },
+];
+
+export const CHENNAI_HELPLINE_INFO = [
+  {
+    name: 'Greater Chennai Corporation (GCC)',
+    nameTa: 'பெருநகர சென்னை மாநகராட்சி',
+    service: 'Garbage, Roads, Streetlights, Health, Encroachments',
+    serviceTa: 'குப்பை, சாலைகள், தெருவிளக்குகள், சுகாதாரம்',
+    helpline: '1913',
+    app: 'Namma Chennai App',
+    portal: 'chennaicorporation.gov.in',
+  },
+  {
+    name: 'Chennai Metro Water (CMWSSB)',
+    nameTa: 'சென்னை குடிநீர் வாரியம்',
+    service: 'Sewage overflow, drinking water supply, pipeline leaks',
+    serviceTa: 'கழிவுநீர் அடைப்பு, குடிநீர் விநியோகம், குழாய் கசிவு',
+    helpline: '1916',
+    app: 'Metro Water Complaint Portal',
+    portal: 'chennaimetrowater.tn.gov.in',
+  },
+  {
+    name: 'TANGEDCO (Electricity Board)',
+    nameTa: 'மின் வாரியம் (TANGEDCO)',
+    service: 'Power cuts, fallen wires, damaged transformer/meter',
+    serviceTa: 'மின் தடை, அறுந்து விழுந்த கம்பிகள், சேதமடைந்த மின்மாற்றி',
+    helpline: '94987 94987 (Minnagam)',
+    app: 'TANGEDCO Mobile App',
+    portal: 'tnebnet.org',
+  },
+  {
+    name: 'Chennai Traffic Police',
+    nameTa: 'சென்னை போக்குவரத்து காவல்துறை',
+    service: 'Traffic light failure, illegal parking, road blockage',
+    serviceTa: 'சிக்னல் பழுது, சட்டவிரோத வாகன நிறுத்தம், போக்குவரத்து நெரிசல்',
+    helpline: '103',
+    app: 'Citizen Cop App',
+    portal: 'chennaicitypolice.tn.gov.in',
+  },
+];
